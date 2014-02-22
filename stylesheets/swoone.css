@@ -46,6 +46,13 @@ nav {
     display: inline;
     display: inline-block; }
 
+.portfolio section {
+  display: table; }
+  .portfolio section:after {
+    clear: both;
+    content: ""; }
+.portfolio h2 {
+  padding: 0 10px; }
 .portfolio ul, .portfolio li {
   margin: 0;
   padding: 0px;
