@@ -1,0 +1,58 @@
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1;
+  font-size: 1em;
+  line-height: 1.5;
+  background: #e7e7e7 url(../images/body-bg.png) 0 0 repeat;
+  font-family: "Helvetica Neue", Helvetica, Arial, serif;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+  color: #6d6d6d;
+  margin: 0 auto;
+  width: 959px; }
+
+header {
+  padding-top: 35px;
+  padding-bottom: 25px;
+  text-align: center; }
+  header h1 {
+    font-family: "Chivo", "Helvetica Neue", Helvetica, Arial, serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    font-size: 48px;
+    color: #303030;
+    line-height: 1.2; }
+  header h2 {
+    letter-spacing: -1px;
+    font-size: 24px;
+    color: #aaaaaa;
+    font-weight: normal;
+    line-height: 1.3; }
+
+nav {
+  text-align: center; }
+  nav ul, nav li {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  nav li {
+    display: inline;
+    display: inline-block; }
+
+.portfolio ul, .portfolio li {
+  margin: 0;
+  padding: 0px;
+  list-style: none; }
+.portfolio li {
+  width: 459.5px;
+  float: left;
+  margin: 10px; }
+.portfolio img {
+  width: 100%; }
